@@ -1,0 +1,15 @@
+SELECT head_of_department from departments;
+
+ SELECT level FROM degrees = 'triennale';
+
+ SELECT name FROM students WHERE name = 'marco';
+
+ SELECT name, cfu from courses WHERE cfu >= 12
+
+ SELECT name, cfu from courses  WHERE cfu < 5 OR cfu  >=10
+
+ SELECT name, year, period from courses WHERE year = 1 and period = 'I semestre';
+
+ SELECT name, website from courses WHERE website is NULL ;
+
+ SELECT name, phone from teachers WHERE phone IS NOT NULL ;
